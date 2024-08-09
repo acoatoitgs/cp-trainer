@@ -1,0 +1,29 @@
+.profile-container {
+    display: flex;
+}
+
+.profile-image img {
+    width: 100%;
+}
+
+.profile-text ul {
+    list-style: none;
+}
+
+.other-info {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.personal-name {
+    font-size: 28px;
+    color: rgb(189, 200, 255);
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+}

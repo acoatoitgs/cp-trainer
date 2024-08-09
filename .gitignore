@@ -1,6 +1,7 @@
 # Python
 # Ignore Python cache files
 __pycache__/
+python/
 *.pyc
 *.pyo
 *.pyd
@@ -19,17 +20,17 @@ backend/db/cpdata.db
 
 # Node.js
 # Dependencies
-frontend/node_modules
-frontend/.pnp
-frontend/.pnp.js
+dashboard/node_modules
+dashboard/.pnp
+dashboard/.pnp.js
 
 # Testing
 # Coverage reports
-frontend/coverage
+dashboard/coverage
 
 # Production
 # Build outputs
-frontend/build
+dashboard/build
 
 # Miscellaneous
 # System files and IDE configs

@@ -1,0 +1,13 @@
+.dashboard-grid {
+    width: 100%;
+    height: 100%;
+    background-color: #222234;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-grid-row {
+    padding-top: 15px;
+}

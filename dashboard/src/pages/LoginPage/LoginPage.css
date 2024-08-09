@@ -1,0 +1,100 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.login-half {
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-half {
+    width: 50vw;
+}
+
+.page-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.login-half {
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-half {
+    width: 50vw;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-box {
+    min-width: 380px;
+}
+
+.login-box h1 {
+    font-family: sans-serif;
+}
+
+.login-box button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #f7f7f7;
+    text-decoration: none;
+    background-color: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: rgb(76, 76, 183);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+.login-box input {
+    border-radius: 10px;
+    height: 50px;
+    box-shadow: none;
+    border: 1px solid rgb(185, 185, 185);
+    width: 100%;
+}
+
+.login-box label {
+    font-size: 14px;
+    color: #333;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-bottom: 5px;
+}
+
+.login-warning {
+    background-color: rgb(255, 222, 144);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.nav-button:hover {
+    background-color: #21283c;
+}

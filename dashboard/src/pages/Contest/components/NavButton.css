@@ -1,0 +1,21 @@
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: #979ba3;
+    text-decoration: none;
+    background-color: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin: 5px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #21283c;
+}
+
+.nav-button svg {
+    margin-right: 8px;
+}

@@ -1,0 +1,28 @@
+.navbar {
+    height: 100vh;
+    min-width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #121621;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.navbar-logo {
+    margin-bottom: 20px;
+}
+
+.navbar hr {
+    width: 80%;
+    border: none;
+    border-top: 2px solid #444;
+    margin: 20px 0;
+}
+
+.nav-buttons {
+    width: 100%;
+}

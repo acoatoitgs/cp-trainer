@@ -1,0 +1,34 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #222234;
+    box-sizing: border-box;
+}
+
+.top-info {
+    background-color: red;
+    height: 50px;
+    width: calc(100% - 260px);
+    position: fixed;
+    top: 0;
+    left: 260px;
+    z-index: 1;
+}
+
+.dashboard-content {
+    margin-top: 50px;
+    margin-left: 260px;
+    flex: 1;
+    background-color: #222234;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
