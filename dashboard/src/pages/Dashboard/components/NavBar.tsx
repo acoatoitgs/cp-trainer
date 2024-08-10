@@ -13,7 +13,7 @@ const NavBar: React.FC = () => {
             <hr></hr>
             <div className="nav-buttons">
                 <NavButton icon={<FaHome />} text="Home" href="/app" />
-                <NavButton icon={<FaCogs />} text="Simulate a contest" href="/contest" />
+                <NavButton icon={<FaCogs />} text="Simulate a contest" href="/startcontest" />
             </div>
         </div>
     );

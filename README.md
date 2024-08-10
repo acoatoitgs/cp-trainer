@@ -1,4 +1,7 @@
+![Login Page](./dashboard/public/github_showoff/login_page.png)
 ![Dashboard](./dashboard/public/github_showoff/dashboard.png)
+![Select Problems](./dashboard/public/github_showoff/select_problems.png)
+![Contest](./dashboard/public/github_showoff/contest_running.png)
 
 # TODO / FIXES:
  - [ ] If the user creates a token manually, the app acts like the user exists, making requests and processing garbage data.
@@ -9,4 +12,6 @@
  - [ ] Before attempting to install stuff, the setup script should check if the required packages exist.
  - [ ] Fix graphics of logout page.
  - [ ] Add images/decoration on the right side of the login page.
+ - [ ] If a user stops the timer and closes the tab the timer will keep adding seconds.
+ - [ ] Implement the score tracking mechanic in the contest area.
  

@@ -1,0 +1,9 @@
+.contest-content {
+    margin-left: 260px;
+    flex: 1;
+    background-color: #222234;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}

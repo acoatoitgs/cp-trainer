@@ -2,13 +2,15 @@ import React, { useEffect, useState } from 'react';
 import Cookies from 'js-cookie';
 import { useNavigate } from 'react-router-dom';
 
-
+import './Contest.css';
 import './Contest.css';
 import NavBar from './components/NavBar';
+import RunningContest from './components/RunningContest';
+
 const Dashboard: React.FC = () => {
 
-    //Fetch all training data needed
     const navigate = useNavigate();
+
     useEffect(() => {
         const checkCookie = async () => {
             const c_username = Cookies.get('username');
@@ -21,8 +23,13 @@ const Dashboard: React.FC = () => {
     }, [navigate]);
 
     return (
-        <NavBar />
-    )
+        <>
+            <NavBar />
+            <div className='contest-content'>
+                <RunningContest />
+            </div>
+        </>
+    );
 };
 
 export default Dashboard;

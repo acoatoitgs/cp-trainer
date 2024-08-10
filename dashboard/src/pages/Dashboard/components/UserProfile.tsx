@@ -36,6 +36,9 @@ const UserProfile: React.FC = () => {
 
     //Logout logic
     const handleClear = () => {
+        Cookies.remove('contest-problems');
+        Cookies.remove('contest-timer');
+        Cookies.remove('contest-last-visit');
         Cookies.remove('username');
         setUsername('');
         navigate('/login');

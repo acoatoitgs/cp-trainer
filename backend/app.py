@@ -308,6 +308,47 @@ def get_user_stats():
                 "success": 1}
     return jsonify(response)
 
+@app.route('/api/training/getcontestproblems', methods=['POST'])
+def get_contest_problems():
+    conn = sqlite3.connect('./backend/db/cpdata.db')
+    cursor = conn.cursor()  
+
+    rating = request.get_json().get('rating')
+    problem_count = request.get_json().get('problem_count')
+
+    if rating > 1000 or rating < 10 or problem_count > 8 or problem_count < 1:
+        return jsonify({"success": 0})
+    
+    lb = max(rating - 250, 10)
+    ub = min(rating + 100, 1000)
+
+    cursor.execute('''
+        SELECT * FROM training 
+        WHERE max_points <= ? AND max_points >= ? AND user_score = 0 
+        ORDER BY RANDOM() 
+        LIMIT ?;
+    ''', (ub, lb, problem_count))
+
+    problems = []
+    rows = cursor.fetchall()
+    
+    for row in rows:
+        problem = {
+            "task": row[1],
+            "url": "https://training.olinfo.it/#/task/" + row[1] + "/statement",
+            "id": row[0],
+            "title": row[2],
+            "max_points": row[4],
+        }
+        problems.append(problem)
+
+    data = {"problems": problems}
+
+    conn.close()
+
+    return jsonify(data)
+
+
 
     
 

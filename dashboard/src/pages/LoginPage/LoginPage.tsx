@@ -75,7 +75,7 @@ const LoginPage: React.FC = () => {
 
             </div>
             <div className='right-half'>
-
+                You got me here, sigh.
             </div>
         </div >
     );

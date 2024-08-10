@@ -3,11 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import LoginPage from './pages/LoginPage/LoginPage';
 import Dashboard from './pages/Dashboard/Dashboard';
+import ContestSelect from './pages/Contest/components/ContestSelect';
+import Contest from './pages/Contest/Contest';
 
 import './App.css';
 import 'react-grid-layout/css/styles.css'
 import 'react-resizable/css/styles.css';
-import Contest from './pages/Contest/Contest';
 
 import "@fontsource/plus-jakarta-sans"; // Defaults to weight 400
 import "@fontsource/plus-jakarta-sans/400.css"; // Specify weight
@@ -22,6 +23,7 @@ function App() {
         <Route path="/app" element={<Dashboard />} />
         <Route path="/" element={<LoginPage />} />
         <Route path="/contest" element={<Contest />} />
+        <Route path="/startcontest" element={<ContestSelect />} />
       </Routes>
     </Router>
   );
