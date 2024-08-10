@@ -14,4 +14,5 @@
  - [ ] Add images/decoration on the right side of the login page.
  - [ ] If a user stops the timer and closes the tab the timer will keep adding seconds.
  - [ ] Implement the score tracking mechanic in the contest area.
- 
+ - [ ] Implement alert system
+ - [ ] The frontend needs to be decorated.
