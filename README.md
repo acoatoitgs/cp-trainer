@@ -1,7 +1,7 @@
-![Login Page](./dashboard/public/github_showoff/login_page.png)
 ![Dashboard](./dashboard/public/github_showoff/dashboard.png)
+<!-- ![Login Page](./dashboard/public/github_showoff/login_page.png)
 ![Select Problems](./dashboard/public/github_showoff/select_problems.png)
-![Contest](./dashboard/public/github_showoff/contest_running.png)
+![Contest](./dashboard/public/github_showoff/contest_running.png) -->
 
 # TODO / FIXES:
  - [ ] If the user creates a token manually, the app acts like the user exists, making requests and processing garbage data.
