@@ -16,3 +16,7 @@
  - [ ] Implement the score tracking mechanic in the contest area.
  - [ ] Implement alert system
  - [ ] The frontend needs to be decorated.
+ - [ ] Add padding left on input.
+ - [x] Fix setup.sh
+ - [x] Add target = _blank on "read more" in random article
+ - [x] For low resolution screens the dashboard is fu***d up

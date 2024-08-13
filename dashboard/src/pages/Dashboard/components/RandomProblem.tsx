@@ -48,9 +48,9 @@ const RandomProblem: React.FC = () => {
 
     return (
         <div>
-            <Container fluid className='article-container'>
+            <Container fluid className='problem-container'>
                 <Row>
-                    <Col className='article-text'>
+                    <Col className='problem-text'>
                         <h2> {title + '(' + task + ')'}</h2>
                         <h3> Max score: {maxPoints}</h3>
                         <a href={url ? url : "https://training.olinfo.it"}> {url} </a>

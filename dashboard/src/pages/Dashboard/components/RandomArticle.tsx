@@ -45,7 +45,7 @@ const RandomArticle: React.FC = () => {
                         <h2> {title}</h2>
                         <p> {subtitle}</p>
 
-                        <a href={url ? url : "https://training.olinfo.it"}> Read more </a>
+                        <a href={url ? url : "https://training.olinfo.it"} target='_blank'> Read more </a>
                     </Col>
                 </Row>
             </Container>

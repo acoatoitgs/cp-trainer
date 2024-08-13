@@ -1,3 +1,11 @@
-.article-text p {
-    font-size: 19px;
+.problem-text h2 {
+    font-size: 4vh;
+}
+
+.problem-text h3 {
+    font-size: 3vh;
+}
+
+.problem-text a {
+    font-size: 1.7vh;
 }

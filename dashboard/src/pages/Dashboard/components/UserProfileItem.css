@@ -11,12 +11,12 @@
 }
 
 .other-info {
-    font-size: 16px;
-    margin-top: 5px;
+    font-size: 1.6vh;
+    margin-top: 0.4px;
 }
 
 .personal-name {
-    font-size: 28px;
+    font-size: 3vh;
     color: rgb(189, 200, 255);
 }
 

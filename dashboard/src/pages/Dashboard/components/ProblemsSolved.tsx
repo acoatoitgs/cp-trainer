@@ -51,7 +51,7 @@ const ProblemSolved: React.FC = () => {
     }
 
     return (
-        <div>
+        <div style={{ height: "19vh", width: "100%" }}>
             <PieChart
                 colors={['green', 'yellow', 'red']}
                 series={[
@@ -61,22 +61,18 @@ const ProblemSolved: React.FC = () => {
                             { id: 1, value: r_partial, label: r_partial_perc + '% - Partially solved' },
                             { id: 2, value: r_fail, label: r_fail_perc + '% - Failed/Unattempted' },
                         ],
-                        innerRadius: 54,
-                        outerRadius: 100,
+                        innerRadius: "40%",
                         paddingAngle: 2,
                         cornerRadius: 5,
                         startAngle: -90,
                         endAngle: 270,
-                        cx: 150,
-                        cy: 150,
+                        cx: "25%",
                     },
                 ]}
-                width={500}
-                height={300}
                 slotProps={{
                     legend: {
                         labelStyle: {
-                            fontSize: 14,
+                            fontSize: "1.4vh",
                             fill: 'white',
                         },
                     },
